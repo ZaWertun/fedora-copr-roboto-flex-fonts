@@ -4,7 +4,7 @@
 %define catalogue %{_sysconfdir}/X11/fontpath.d
 
 Name:    roboto-flex-fonts
-Version: 3.100
+Version: 3.200
 Release: 1%{?dist}
 Summary: Roboto Flex font family
 
@@ -79,6 +79,9 @@ appstream-util validate-relax --nonet \
 
 
 %changelog
+* Fri Jun 30 2023 Yaroslav Sidlovsky <zawertun@gmail.com> - 3.200-1
+- version 3.200
+
 * Tue May 10 2022 Yaroslav Sidlovsky <zawertun@gmail.com> - 3.100-1
 - initial spec for version 3.100
 
